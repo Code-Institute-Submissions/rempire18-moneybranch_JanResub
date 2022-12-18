@@ -139,25 +139,15 @@ header a {
 
 }
 
-/* About with Flip box */
+/* About Card*/
 
-#about-page {
-    background-color: #bbb;
-    height: 550px;
-  
-
-}
-
-
-/* card */
-
-.card-deck {
-    max-width: 500%;
+#about {
+    background-color: #edbc34;
+    height: 600px;
+    width: 900px;
 
 }
 
-
-/* THE MONEY TREES */
 #moneytrees h2 {
     font-family: 'Oswald', sans-serif;
     padding: 30px;
@@ -169,6 +159,14 @@ header a {
     font-weight: lighter;
     color: #307f06;
 
+}
+
+/* MONEYTRESS */
+
+#moneytrees {
+    background-color: #e4ed34;
+    margin-bottom: 16px;
+    padding-bottom: 30px;
 }
 
 #moneytrees-title {
@@ -184,20 +182,8 @@ header a {
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
+    width: 90%;
 }
-
-#moneytrees-title h2 {
-    font-size: 200%;
-    padding-bottom: 16px;
-    color: #98e118;
-
-}
-
-#moneytrees-title a:hover {
-    font-size: 120%;
-}
-
-
 
 #moneytrees-title a {
     text-decoration: none;
@@ -208,8 +194,9 @@ header a {
     margin-bottom: 0;
 }
 
-a {
-    color: #fafafa;
+#moneytrees-title a:hover {
+    font-size: 120%;
+    color: #fff;
 }
 
 #moneytrees-title p {
@@ -229,21 +216,20 @@ a {
 .card-group {
     margin: 20px;
     margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
 
 }
 
 
-#testimony {
-    background-color: #ffffff;
 
-
-}
 
 #testimonials-title {
     font-family: 'Oswald', sans-serif;
     padding: 30px;
     margin: 0;
-    letter-spacing: 15px;
+    letter-spacing: normal;
     text-align: center;
     text-transform: uppercase;
     font-size: 300%;
@@ -277,6 +263,7 @@ p {
     padding: 16px;
     margin-left: auto;
     margin-right: auto;
+    width: 90%;
     margin-bottom: 16px;
    
   }
@@ -444,7 +431,7 @@ footer {
 
 @media screen and (max-width: 987px) {
 
-    #header-menu/{
+    #header-menu{
         clear: left;
         float: left;
         margin-left: 30px;
