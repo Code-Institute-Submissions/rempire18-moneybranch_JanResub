@@ -1,108 +1,150 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Code Institute Project
+# **MoneyTree**
 
-Welcome rempire18,
+[Take me to Moneytree](https://rempire18.github.io/moneytree/)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Screen shots (thanks to my Mentor who've shown me how to do this and to Sean C Davis (youtuber) who have shown me an awesome hack in adding photos to github)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+![image](https://user-images.githubusercontent.com/115887118/206911433-97649344-1e75-40d8-b33a-ebf44811e5be.png)
 
 ---
 
-Happy coding!
+# By Rempire18
+# Project Overview
+
+![Responsive Design](https://user-images.githubusercontent.com/115887118/206915297-f101213d-350c-485c-870a-884b99df0bfb.png)
+
+* I thought about this project as there were times that I don't have any income.
+* Because of my restrictions, I just find a way to hustle everyday for money.
+* So here comes the internet for the rescue. It pointed me to sites where I can earn a hotmeal after using a mouse or tapping a mobile screen.
+* As there are many websites out there that do this, some can be hard to deal with (meaning always screened out, takes too long to make a cash out), I decided to make a list of those sites I personally tried and tested.
+* visit [MoneyTree](https://rempire18.github.io/moneytree/)
+---
+
+# UX
+
+## Project Goals
+
+### **What is MoneyTree for?**
+* This site is a list of tested companies that pay you in sharing your experiences, eating in a restaurant, shopping online or on store, testing new products, watching movies etc.
+
+### **Who can join?** 
+* Anybody who wants to earn some pocket money especially to those who don't have much chances in gaining mainstream employment for whatever reasons, as long as you have a laptop, mobile phone and an internet access.
+
+### **How can you join?**
+*We dedicate this site to experiment on websites offering this kind of service so you you can join them without wasting your time and just enjoy what they offer.
+
+---
+
+# User Goals
+* Users want to explore ways of monetizing their clicks and taps on their devices.
+* Users want to help the internet community to improve user experiences by testing sites and getting paid for it.
+* Users want to have something that can make them get by when money is hard to come by.
+* note: this is not a get rich scheme or an alternative to employment.
+
+# Developer Goals
+* It aims to identify websites that are legitimate in this business.
+* We will build functionalities and ratings review to sites we test.
+* Will create search according to these ratings.
+
+# Website Owner Goals
+* We will personally test websites offering this kind of service on money you can earn versus the time you spend.
+* We will advice you if you are just wasting your time or it is time to move on to another services.
+* We will conduct testing on sites shared by our users.
+
+# A User's Story
+
+* There's a time that a sanction affected my work and I need to abandon my job. I need to  start somewhere in a new world that I am not familiar with. With no friends to turn to and family's very far away, I decided to look for something in the virtual world.
+
+* At first, it is a challenge and like in the real world, there are plenty of sites that just waste your time and want to get your money. Luckily I do not have what they want and left me alone. 
+
+* I came across website testing, mystery shopping and academic research, all online. Now I can afford a KFC meal. I know it is not much, but for me with my feet and hands tied to afford this is something.
+
+---
+# Design Choices
+
+This site is geared to those people looking for a legitimate way to get something from their browsing experience. So links to legitimate, tested and real money making sites without cash outlay are in this site. 
+
+So simple design is in mind. An introduction to what MoneyTree is all about, it's aim, what it can do to the user and simple links that transport the user to the legitimate sites.
+
+A signup page for news letters that is set for at least every forthnight is also provided.
+
+## Colors
+
+I was thorn between the color of money and leaf as the main theme, but because they are both represent money, I used them both throughout the project. I used yellow, green and blue plus the neutral white and near-black to show the diversity of what money can do in the world.
+
+## Typography
+
+I used Oswald family, sans-serif font to make the design simpler and more money looking.
+
+## Images
+
+I used screenshots I made my own and the main image from pexels. The icons were grabbed from fonawesome.
+
+## Design Elements
+
+This is my first time to make a website from scratch. I do not know what works and I do not know what components to fit in. So I based most of the design from the project Love Running, like the top menu, footer, buttons and texts inputs.
+
+I also used mainly google to point me on how to make boxes, cards, bootstraps etc. I am pointed usually to the direction of W3C to get shippets of the codes as the instructions to do this in the videos took me hours of sifting thorough the instructions I need. 
+
+In the future, I would like to make everything with dropdowns, flipping boxes and more animated site. 
+
+I do not know if my design is good to the everybody's eyes but it is just basically this site is made with a lot of struggle from a novice, not your-average-learner guy who just used a Chromebook.
+
+# Animation
+
+Talking about animation, a trick told by my mentor to tilt the social media icon sideways. I thought it was cool.
+
+# Wireframes
+
+![WireFrame](https://user-images.githubusercontent.com/115887118/206920174-ce90b3a9-b19f-4a06-ac84-b64ce6818399.png)
+---
+
+# Features
+
+* index.html
+This first page shows it all. Why the website is created, the websites it wants users to visit, why they should use MoneyTree instead of directly going to the actual recommendations.
+
+*MoneyTrees
+I have taken down this page and put a link to the index section instead. I am still collating sites that I will add to this page but because there are just three I can share at the moment, I decided to just put those three infront.
+
+*Signup page
+This is the signup page where the users can subscribe to the forthnightly news letter.
+---
+
+# Future Features
+* A search engine for related websites
+* Ratings of related sites
+* top 10 recommended and most money friendly sites
+---
+
+# Technologies Used
+
+## Languages
+
+* HTML5
+* CSS3
+* md
+
+## Frameworks, Libraries & Programs Used
+
+1. Google Fonts
+2. Font Awesome
+3. Github
+4. Girpod
+5. bootstrap
+
+# Testing 
+
+
+
+
+
+
+
+
+
+
+
+
+

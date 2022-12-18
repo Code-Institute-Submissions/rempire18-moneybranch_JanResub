@@ -1,0 +1,615 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+header {
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+    padding-top: 15px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -85px;
+    height: 65px;
+    top: 0
+}
+
+header a {
+    text-decoration: none;
+
+}
+
+
+/* LOGO */
+
+#logo {
+    height: fit-content;
+    width: 300px;
+    padding: 15px;
+    font-size: 280%;
+    margin-left: 30px;
+    border-radius: 50%;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #ecfdee;
+    text-align: center;
+    background-color: #034606bd;
+
+}
+
+#logo:hover {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+/* HEADER */
+
+#header-menu {
+    
+    align-content: center;
+    align-items: center;
+    background-color: #034606bd;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    gap: 1rem;
+    justify-content: center;
+    list-style: none;
+    margin: 15px 10px 50px -10px;
+    padding: 0 50px;
+
+}
+
+#header-menu li {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+#header-menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#header-menu a:hover {
+    border-bottom: 2px solid #fff;
+    font-size: 110%;
+    color: #e4ed34;
+}
+
+.active {
+    border-bottom: 1px solid #fff;
+}
+
+
+/* MONEY-IMAGE/COVER-TEXT*/
+
+#money-pic {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#money-image {
+    height: 700px;
+    width: 100%;
+    background: url("../images/money-tree.jpg") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+}
+
+#cover-text,
+#cover-text h2 {
+    color: #ffffff;
+
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 300px;
+    height: 150px;
+    background-color: #034606bd;
+    padding-top: 25px;
+    padding-left: 10px;
+    border-radius: 15%;
+    bottom: 60px;
+    right: 50px;
+    position: absolute;
+}
+
+#cover-text h4 {
+    text-transform: none;
+
+}
+
+/* About with Flip box */
+
+#about-page {
+    background-color: #bbb;
+    height: 550px;
+  
+
+}
+
+
+/* card */
+
+.card-deck {
+    max-width: 500%;
+
+}
+
+
+/* THE MONEY TREES */
+#moneytrees h2 {
+    font-family: 'Oswald', sans-serif;
+    padding: 30px;
+    margin: 0;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 300%;
+    font-weight: lighter;
+    color: #307f06;
+
+}
+
+#moneytrees-title {
+    font-family: 'Oswald', sans-serif;
+    padding: 30px;
+    margin: 0;
+    letter-spacing: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 100%;
+    font-weight: lighter;
+    background-color: #100e96;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#moneytrees-title h2 {
+    font-size: 200%;
+    padding-bottom: 16px;
+    color: #98e118;
+
+}
+
+#moneytrees-title a:hover {
+    font-size: 120%;
+}
+
+
+
+#moneytrees-title a {
+    text-decoration: none;
+    color: #edbc34;
+    padding-top: 16px;
+    font-size: 100%;
+    text-transform: none;
+    margin-bottom: 0;
+}
+
+a {
+    color: #fafafa;
+}
+
+#moneytrees-title p {
+    color: #98e118;
+    font-size: 100%;
+    letter-spacing: normal;
+    padding-top: 10px;
+    padding-bottom: 0;
+    text-transform: lowercase;
+
+
+}
+
+
+/* Testimonials heading */
+
+.card-group {
+    margin: 20px;
+    margin-bottom: 40px;
+
+}
+
+
+#testimony {
+    background-color: #ffffff;
+
+
+}
+
+#testimonials-title {
+    font-family: 'Oswald', sans-serif;
+    padding: 30px;
+    margin: 0;
+    letter-spacing: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 300%;
+    font-weight: lighter;
+    color: #307f06;
+
+}
+
+.testimonials-title-icon i, h2 {
+    color: #fff;
+    font-size: 150%;
+}
+
+.card-body> i,
+p {
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 30px;
+    margin: 0;
+    text-align: center;
+    font-size: 100%;
+    color: #ffffff;
+
+}
+
+/* Testimonials Responsive */
+
+.container {
+    border: 2px solid #ccc;
+    background-color: #307f06;
+    border-radius: 5px;
+    padding: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+   
+  }
+  
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .container img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  .container span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  
+
+
+/* FORM */
+
+.form-section {
+    min-height: calc(100vh - 69px);
+    clear: left;
+    background: url("../images/money-tree.jpg") no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    font-family: Oswald;
+    letter-spacing: 4px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.signup-form {
+    border-radius: 15px;
+    margin-top: 200px;
+    color: #e4ed34;
+    background-color: rgba(9, 58, 33, 0.7);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+    height: 400px;
+}
+
+.signup-form h2 {
+    color: #e4ed34;
+    margin-bottom: 20px;
+
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+
+
+}
+
+.text-input:hover {
+    border-color: #e4ed34;
+    background-color: #034606;
+}
+
+.join-button {
+    margin-top: 1px;
+    border-radius: 15px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #034606;
+    color: #e4ed34;
+    /*positions the button below the radio buttons*/
+    display: block;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #034606;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: rgb(14, 64, 5);
+    height: 90px;
+
+}
+
+.social-media {
+    margin: 0;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.social-media li {
+    display: inline;
+
+}
+
+.social-media i {
+    color: whitesmoke;
+    font-size: 40px;
+    padding: 10px 15px;
+    margin-right: 3%;
+
+}
+
+.social-media i:hover {
+    color: rgb(225, 239, 72);
+    transform: rotate(-5deg) scale(.9);
+    font-size: 45px;
+
+}
+
+.social-media a {
+    color: whitesmoke;
+    font-size: 14px;
+
+
+}
+
+
+
+
+/* MEDIA QUERRIES */
+
+@media screen and (max-width: 1200px) {
+
+
+    #logo {
+        height: fit-content;
+        width: 300px;
+        padding: 15px;
+        font-size: 280%;
+        margin-left: 0;
+        margin-right: 0;
+        border-radius: 50%;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0px;
+        color: #ecfdee;
+        text-align: center;
+        background-color: #034606bd;
+
+    }
+
+
+
+    hr {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 987px) {
+
+    #header-menu/{
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+        font-size: 90%;
+        font-weight: 400;
+        max-width: 90%;
+        max-height: fit-content;
+
+    }
+
+    #header-menu {
+        display: none;
+    }
+
+    .card-body {
+        width: 100%;
+    }
+
+    #moneytrees-title {
+        letter-spacing: 0;
+
+    }
+
+    #testimonials-title {
+        letter-spacing: 0;
+
+    }
+
+
+    .form-section {
+        min-height: calc(100vh - 29px);
+    }
+   
+
+    #footer {
+        position: sticky;
+        bottom: 0;
+    }
+    
+}
+
+@media screen and (max-width: 769px) {
+    header {
+        flex-direction: column;
+        margin-bottom: -125px;
+    }
+    #header-menu {
+        margin-top: 20px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 100;
+        letter-spacing: 0;
+        background: none;
+    }
+
+    #header-menu a {
+        text-decoration: none;
+        color: #1a4702;
+    }
+
+
+    #header-menu a {
+        color: #4fcf0a;
+    }
+
+    ul #header-menu {
+        width: 80%;
+        margin: 0 0 0 20%;
+    }
+
+    #logo {
+        color: #e4ed34;
+        justify-content: center;
+        margin-top: 0;
+    }
+
+    .card-deck {
+        max-width: 500%;
+    }
+
+    .signup-form {
+        max-height: fit-content;
+        max-width: 300px;
+        position: relative;
+        margin-bottom: 300px;
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 650px) {
+
+    #logo {
+        color: #e4ed34;
+        justify-content: center;
+    }
+
+    #header-menu {
+        margin-top: 20px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 100;
+        letter-spacing: 0;
+        background: none;
+    }
+
+    #header-menu a {
+        text-decoration: none;
+        color: #1a4702;
+    }
+
+    #cover-text {
+        display: none;
+    }
+
+
+    #moneytrees-title {
+        letter-spacing: 0;
+
+    }
+
+    #testimonials-title {
+        letter-spacing: 0;
+
+    }
+
+
+    .signup-form {
+        margin-top: 250px;
+        margin-bottom: 50px;
+        margin-left: 0;
+        margin-right: 0;
+        height: 55%;
+
+    }
+
+    .signup-form h2 {
+        display: none;
+    }
+
+
+
+    footer {
+        background-color: rgb(14, 64, 5);
+        height: fit-content;
+
+    }
+        
+}
+
+@media (max-width: 500px) {
+    .container {
+        text-align: center;
+    }
+    .container img {
+        margin: auto;
+        float: none;
+        display: block;
+    }
+  }
