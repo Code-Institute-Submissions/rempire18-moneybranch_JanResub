@@ -3,7 +3,9 @@
 
 [Take me to Moneytree](https://rempire18.github.io/moneybranch/)
 
-Screen shots (thanks to my Mentor who've shown me how to do this and to Sean C Davis (youtuber) who have shown me an awesome hack in adding photos to github)
+# Screenshots: 
+
+## thanks to my Mentor who've shown me how to do this and to Sean C Davis (youtuber) who have shown me an awesome hack in adding photos to github.
 
 ![image](https://user-images.githubusercontent.com/115887118/206911433-97649344-1e75-40d8-b33a-ebf44811e5be.png)
 
@@ -16,8 +18,8 @@ Screen shots (thanks to my Mentor who've shown me how to do this and to Sean C D
 
 * I thought about this project as there were times that I don't have any income.
 * Because of my restrictions, I just find a way to hustle everyday for money.
-* So here comes the internet for the rescue. It pointed me to sites where I can earn a hotmeal after using a mouse or tapping a mobile screen.
-* As there are many websites out there that do this, some can be hard to deal with (meaning always screened out, takes too long to make a cash out), I decided to make a list of those sites I personally tried and tested.
+* So here comes the internet to the rescue. It pointed me to sites where I can earn a hotmeal after using a mouse or tapping a mobile screen.
+* As there are many websites out there that do this, some can be hard to deal with (meaning always screened out, takes too long to make a cash out), so I decided to make a list of those sites I personally tried and tested.
 * visit [MoneyTree](https://rempire18.github.io/moneybranch/)
 ---
 
@@ -26,10 +28,10 @@ Screen shots (thanks to my Mentor who've shown me how to do this and to Sean C D
 ## Project Goals
 
 ### **What is MoneyTree for?**
-* This site is a list of tested companies that pay you in sharing your experiences, eating in a restaurant, shopping online or on store, testing new products, watching movies etc.
+* This site is a list of tested companies that pay you in sharing your experiences, eating in a restaurants, shopping online or in stores, testing new products, watching movies etc.
 
 ### **Who can join?** 
-* Anybody who wants to earn some pocket money especially to those who don't have much chances in gaining mainstream employment for whatever reasons, as long as you have a laptop, mobile phone and an internet access.
+* Anybody who wants to earn some pocket money especially to those who don't have much chances in gaining mainstream employment for whatever reason, as long as you have a laptop, mobile phone and an internet access.
 
 ### **How can you join?**
 *We dedicate this site to experiment on websites offering this kind of service so you you can join them without wasting your time and just enjoy what they offer.
@@ -44,34 +46,39 @@ Screen shots (thanks to my Mentor who've shown me how to do this and to Sean C D
 
 # Developer Goals
 * It aims to identify websites that are legitimate in this business.
-* We will build functionalities and ratings review to sites we test.
-* Will create search according to these ratings.
+* In the future, we will build functionalities like ratings review to sites we test and comments section for user experiences, tips and tricks of the trade.
+* Will create searchrankings according to these ratings.
 
 # Website Owner Goals
-* We will personally test websites offering this kind of service on money you can earn versus the time you spend.
-* We will advice you if you are just wasting your time or it is time to move on to another services.
+* We will personally test more websites offering this kind of service on money you can earn versus the time you spend.
+* We will advice users if they are just wasting their time or it is time to move on to another services.
 * We will conduct testing on sites shared by our users.
 
 # A User's Story
 
-* There's a time that a sanction affected my work and I need to abandon my job. I need to  start somewhere in a new world that I am not familiar with. With no friends to turn to and family's very far away, I decided to look for something in the virtual world.
+* A sanction affected my work and I need to abandon my job. I need to  start somewhere in a new world that I am not familiar with. With no friends to turn to and family's very far away, I decided to look for something in the virtual world.
 
-* At first, it is a challenge and like in the real world, there are plenty of sites that just waste your time and want to get your money. Luckily I do not have what they want and left me alone. 
+* At first, it is a challenge and like in the real world, there are plenty of sites that just waste your time and want to get your money. Luckily I do not have what they wanted (money) and left me alone. 
 
-* I came across website testing, mystery shopping and academic research, all online. Now I can afford a KFC meal. I know it is not much, but for me with my feet and hands tied to afford this is something.
+* I came across website testing, mystery shopping and academic research, all online. Now I can afford a KFC meal. I know it is not much, but for me with my feet and hands tied to afford this, is something.
 
 ---
 # Design Choices
 
-This site is geared to those people looking for a legitimate way to get something from their browsing experience. So links to legitimate, tested and real money making sites without cash outlay are in this site. 
+* This site is geared to those people looking for a legitimate way to get some extra cash from their browsing habit. 
 
-So simple design is in mind. An introduction to what MoneyTree is all about, it's aim, what it can do to the user and simple links that transport the user to the legitimate sites.
+* Links to legitimate, tested and real money making sites without cash outlay are in this site. 
 
-A signup page for news letters that is set for at least every forthnight is also provided.
+* So simple design is in mind. An introduction to what MoneyTree is all about, it's aim, what it can do to the user and simple links that transport the user to the legitimate sites.
+
+* A signup page for news letters that is set for at least every forthnight is also provided.
+
+* In the future, a tips and tricks section will be included for users to help other users in identifying legitimate sites and rank them accordingly.
+
 
 ## Colors
 
-I was thorn between the color of money and leaf as the main theme, but because they are both represent money, I used them both throughout the project. I used yellow, green and blue plus the neutral white and near-black to show the diversity of what money can do in the world.
+I was thorn between the colors of money and leaf as the main theme, but because these colours are very similar, I used them both throughout the project. I also used all the primary colors plus the neutral white and near-black to show the diversity of what money can do in the world.
 
 ## Typography
 
@@ -79,7 +86,7 @@ I used Oswald family, sans-serif font to make the design simpler and more money 
 
 ## Images
 
-I used screenshots I made my own and the main image from pexels. The icons were grabbed from fonawesome.
+I used screenshots I made my own and the main image from pexels. The icons were grabbed from fonawesome and pixabay.
 
 ## Design Elements
 
@@ -87,9 +94,11 @@ This is my first time to make a website from scratch. I do not know what works a
 
 I also used mainly google to point me on how to make boxes, cards, bootstraps etc. I am pointed usually to the direction of W3C to get shippets of the codes as the instructions to do this in the videos took me hours of sifting thorough the instructions I need. 
 
-In the future, I would like to make everything with dropdowns, flipping boxes and more animated site. 
+*So every code I used here are from the code institute, W3school, pixabay and bootstrap. I just edited them and pernonalised them to suite the site.
 
-I do not know if my design is good to the everybody's eyes but it is just basically this site is made with a lot of struggle from a novice, not your-average-learner guy who just used a Chromebook.
+In the future, I would like to make everything with dropdowns, flipping boxes and more animated components to make the site more playful. 
+
+I do not know if my design is good to everybody's eyes because this site is made with a lot of struggle from a novice, not your-average-learner guy and just used a Chromebook.
 
 # Animation
 
@@ -165,7 +174,7 @@ As my learning and personal activities are conflicting there are times that it t
 
 ## Messed up with GITHUB
 
-I was making a duplicate html and css when I was editing the project at GITPOD. I usually add, commit and push them together to GITHUB with the other files. When I saw those duplicate files at GITHUB, I deleted them from there. 
+I was making a duplicate html and css while I was editing the project at GITPOD. I usually add, commit and push them together to GITHUB with the other files. When I saw those duplicate files at GITHUB, I deleted them from there. 
 
 ![3](https://user-images.githubusercontent.com/115887118/208360941-421d0ddf-d72c-483e-86fb-3c54a4cb3059.png)
 
@@ -181,7 +190,7 @@ In the future, I want to learn how to amend this mistake and this experience can
 
 # Acknowlegement
 
-## I would like to thank my mentor for her guidance, Kieron and the education department for giving me generous extensions to submit this project, Lee for encouraging me when I was giving up.
+## I would like to thank my mentor for her guidance, Kieron and the education department for giving me numerous and generous extensions to submit this project, Lee for encouraging me when I was giving up.
 
 ## youtube for the videos on "how to"(pardon me I forgot the authors and personalities involved)
 
