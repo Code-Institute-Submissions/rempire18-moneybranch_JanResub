@@ -181,7 +181,10 @@ I was making a duplicate html and css while I was editing the project at GITPOD.
 
 GITPOD no longer allowed me to push anyfile from the workspace. With many attemps and employed advises without success, I decided to create a new workspace using the codes from the previous one, that's why moneytree became moneybranch.
 
+That's the reason that there are less adds, commits and pushes here as I made these steps when I was working on moneytree workspace.
+
 ![1](https://user-images.githubusercontent.com/115887118/208360950-1faa84e5-18f0-4a92-99d1-26b86a2adc1c.png)
+
 
 ## The Future
 
