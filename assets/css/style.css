@@ -6,6 +6,7 @@
     border: 0;
 }
 
+
 h1 {
     margin-bottom: 0;
 }
@@ -55,7 +56,7 @@ header a {
 /* HEADER */
 
 #header-menu {
-    
+
     align-content: center;
     align-items: center;
     background-color: #034606bd;
@@ -141,12 +142,6 @@ header a {
 
 /* About Card*/
 
-#about {
-    background-color: #edbc34;
-    height: 600px;
-    width: 900px;
-
-}
 
 #moneytrees h2 {
     font-family: 'Oswald', sans-serif;
@@ -161,7 +156,7 @@ header a {
 
 }
 
-/* MONEYTRESS */mo
+/* MONEYTRESS */
 
 #moneytrees {
     background-color: #e4ed34;
@@ -238,12 +233,13 @@ header a {
 
 }
 
-.testimonials-title-icon i, h2 {
+.testimonials-title-icon i,
+h2 {
     color: #fff;
     font-size: 150%;
 }
 
-.card-body> i,
+.card-body>i,
 p {
     font-family: 'Oswald', sans-serif;
     padding-bottom: 30px;
@@ -265,26 +261,26 @@ p {
     margin-right: auto;
     width: 90%;
     margin-bottom: 16px;
-   
-  }
-  
-  .container::after {
+
+}
+
+.container::after {
     content: "";
     clear: both;
     display: table;
-  }
-  
-  .container img {
+}
+
+.container img {
     float: left;
     margin-right: 20px;
     border-radius: 50%;
-  }
-  
-  .container span {
+}
+
+.container span {
     font-size: 20px;
     margin-right: 15px;
-  }
-  
+}
+
 
 
 /* FORM */
@@ -422,16 +418,12 @@ footer {
     }
 
 
-
-    hr {
-        display: none;
-    }
 }
 
 
 @media screen and (max-width: 987px) {
 
-    #header-menu{
+    #header-menu {
         clear: left;
         float: left;
         margin-left: 30px;
@@ -466,13 +458,13 @@ footer {
     .form-section {
         min-height: calc(100vh - 29px);
     }
-   
+
 
     #footer {
         position: sticky;
         bottom: 0;
     }
-    
+
 }
 
 @media screen and (max-width: 769px) {
@@ -480,6 +472,7 @@ footer {
         flex-direction: column;
         margin-bottom: -125px;
     }
+
     #header-menu {
         margin-top: 20px;
         display: block;
@@ -494,11 +487,6 @@ footer {
     #header-menu a {
         text-decoration: none;
         color: #1a4702;
-    }
-
-
-    #header-menu a {
-        color: #4fcf0a;
     }
 
     ul #header-menu {
@@ -587,16 +575,17 @@ footer {
         height: fit-content;
 
     }
-        
+
 }
 
 @media (max-width: 500px) {
     .container {
         text-align: center;
     }
+
     .container img {
         margin: auto;
         float: none;
         display: block;
     }
-  }
+}
