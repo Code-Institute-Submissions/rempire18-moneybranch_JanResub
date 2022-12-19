@@ -86,13 +86,13 @@ I used Oswald family, sans-serif font to make the design simpler and more money 
 
 ## Images
 
-I used screenshots I made my own and the main image from pexels. The icons were grabbed from fonawesome and pixabay.
+I used screenshots I made my own and the main image from pexels. The icons were grabbed from fontawesome and pixabay.
 
 ## Design Elements
 
 This is my first time to make a website from scratch. I do not know what works and I do not know what components to fit in. So I based most of the design from the project Love Running, like the top menu, footer, buttons and texts inputs.
 
-I also used mainly google to point me on how to make boxes, cards, bootstraps etc. I am pointed usually to the direction of W3C to get shippets of the codes as the instructions to do this in the videos took me hours of sifting thorough the instructions I need. 
+I also used mainly google to point me on how to make boxes, cards, bootstraps etc. I am pointed usually to the direction of W3C to get shippets of the codes as the instructions to do this in the videos took me hours of sifting through the instructions I need. 
 
 *So every code I used here are from the code institute, W3school, pixabay and bootstrap. I just edited them and pernonalised them to suite the site.
 
@@ -123,9 +123,10 @@ This is a link to the index section. I am still collating sites that I will add 
 
 * Signup page
 
+Users signup to subscribe to the forthnightly newsletter.
 
-This is the signup page where the users can subscribe to the forthnightly news letter.
 ---
+
 
 # Future Features
 * A search engine for related websites
@@ -193,15 +194,23 @@ In the future, I want to learn how to amend this mistake and this experience can
 
 # Acknowlegement
 
-## I would like to thank my mentor for her guidance, Kieron and the education department for giving me numerous and generous extensions to submit this project, Lee for encouraging me when I was giving up.
+* I would like to thank my mentor for her guidance, Kieron and the education department for giving me numerous and generous extensions to submit this project, Lee for encouraging me when I was giving up.
 
-## youtube for the videos on "how to"(pardon me I forgot the authors and personalities involved)
+* youtube for the videos on "how to"(pardon me I forgot the authors and personalities involved)
 
-## W3School
+* W3School
 
-## google search engine
+* google search engine
 
-## SSE for sorting out powercut at the crucial time
+* fontawasome
+
+* pexels
+
+* fixabay
+
+* google font
+
+* SSE for sorting out powercut at the crucial time
 
 
 
