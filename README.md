@@ -179,6 +179,18 @@ GITPOD no longer allowed me to push anyfile from the workspace. With many attemp
 In the future, I want to learn how to amend this mistake and this experience can serve as a precaution to newbie like me to be careful whilst in GITHUB.
 
 
+# Acknowlegement
+
+## I would like to thank my mentor for her guidance, Kieron and the education department for giving me generous extensions to submit this project, Lee for encouraging me when I was giving up.
+
+## youtube for the videos on "how to"(pardon me I forgot the authors and personalities involved)
+
+## W3School
+
+## google search engine
+
+## SSE for sorting out powercut at the crucial time
+
 
 
 
