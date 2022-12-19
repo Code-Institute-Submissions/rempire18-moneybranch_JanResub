@@ -18,7 +18,7 @@ Screen shots (thanks to my Mentor who've shown me how to do this and to Sean C D
 * Because of my restrictions, I just find a way to hustle everyday for money.
 * So here comes the internet for the rescue. It pointed me to sites where I can earn a hotmeal after using a mouse or tapping a mobile screen.
 * As there are many websites out there that do this, some can be hard to deal with (meaning always screened out, takes too long to make a cash out), I decided to make a list of those sites I personally tried and tested.
-* visit [MoneyTree](https://rempire18.github.io/moneytree/)
+* visit [MoneyTree](https://rempire18.github.io/moneybranch/)
 ---
 
 # UX
@@ -143,7 +143,40 @@ This is the signup page where the users can subscribe to the forthnightly news l
 
 # Testing 
 
+I used the https://jigsaw.w3.org/css-validator/ service to test the html and css code with the following results.
 
+html validator
+
+![html](https://user-images.githubusercontent.com/115887118/208357101-c69a7526-8e23-44ac-bfec-b63aee69f8a0.png)
+
+css validator
+
+![css](https://user-images.githubusercontent.com/115887118/208357102-3dad02f6-f733-4d7a-9be7-c024134e16a8.png)
+
+# Encountered Problems
+
+## Design
+
+I was not sure how to start a design to a project. So I looked back at the projects and adopt the Love Running site as a basis of my design. 
+
+## Responsive Design
+
+As my learning and personal activities are conflicting there are times that it took long to  get back to my e-learning making me forget most of what the videos were telling me. As the videos are many, I used you tube and google search to show me how to create a responsive elements using bootstrap's cards, deck of cards, etc., and just picked what I seemed appropriate. 
+
+## Messed up with GITHUB
+
+I was making a duplicate html and css when I was editing the project at GITPOD. I usually add, commit and push them together to GITHUB with the other files. When I saw those duplicate files at GITHUB, I deleted them from there. 
+
+![3](https://user-images.githubusercontent.com/115887118/208360941-421d0ddf-d72c-483e-86fb-3c54a4cb3059.png)
+
+
+GITPOD no longer allowed me to push anyfile from the workspace. With many attemps and employed advises without success, I decided to create a new workspace using the codes from the previous one, that's why moneytree became moneybranch.
+
+![1](https://user-images.githubusercontent.com/115887118/208360950-1faa84e5-18f0-4a92-99d1-26b86a2adc1c.png)
+
+## The Future
+
+In the future, I want to learn how to amend this mistake and this experience can serve as a precaution to newbie like me to be careful whilst in GITHUB.
 
 
 
