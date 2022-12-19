@@ -1,7 +1,7 @@
 # Code Institute Project
 # **MoneyTree**
 
-[Take me to Moneytree](https://rempire18.github.io/moneytree/)
+[Take me to Moneytree](https://rempire18.github.io/moneybranch/)
 
 Screen shots (thanks to my Mentor who've shown me how to do this and to Sean C Davis (youtuber) who have shown me an awesome hack in adding photos to github)
 
@@ -93,7 +93,7 @@ I do not know if my design is good to the everybody's eyes but it is just basica
 
 # Animation
 
-Talking about animation, a trick told by my mentor to tilt the social media icon sideways. I thought it was cool.
+Talking about animation, a trick told by my mentor to tilt the social media icon sideways. I thought it was cool. A simple change of color size is also applied to the money tree links.
 
 # Wireframes
 
@@ -103,12 +103,18 @@ Talking about animation, a trick told by my mentor to tilt the social media icon
 # Features
 
 * index.html
+
+
 This first page shows it all. Why the website is created, the websites it wants users to visit, why they should use MoneyTree instead of directly going to the actual recommendations.
 
-*MoneyTrees
-I have taken down this page and put a link to the index section instead. I am still collating sites that I will add to this page but because there are just three I can share at the moment, I decided to just put those three infront.
+* MoneyTrees
 
-*Signup page
+
+This is a link to the index section. I am still collating sites that I will add to this page but because there are just three I can share at the moment, I decided to just put those three infront.
+
+* Signup page
+
+
 This is the signup page where the users can subscribe to the forthnightly news letter.
 ---
 
@@ -133,6 +139,7 @@ This is the signup page where the users can subscribe to the forthnightly news l
 3. Github
 4. Girpod
 5. bootstrap
+6. fixabay
 
 # Testing 
 
