@@ -41,21 +41,22 @@ header a {
     padding: 15px;
     font-size: 280%;
     margin-left: 30px;
-    border-radius: 50%;
+    border-radius: 15%;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: #ecfdee;
+    color: #e4ed34;
     text-align: center;
     background-color: #034606bd;
 
 }
 
-#logo:hover {
-    text-decoration: none;
-    color: #fff;
+h1:hover {
+    color: #034606bd;
+    background-color: #e4ed34;
 
 }
+
 
 /* HEADER */
 
@@ -71,7 +72,7 @@ header a {
     justify-content: center;
     list-style: none;
     margin: 15px 10px 50px -10px;
-    padding: 0 50px;
+    padding: 5px 50px;
 
 }
 
@@ -93,9 +94,9 @@ header a {
 }
 
 .active {
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #e4ed34;
+    color: #e4ed34;
 }
-
 
 /* MONEY-IMAGE/COVER-TEXT*/
 
@@ -557,7 +558,8 @@ footer {
     }
 
     #cover-text {
-        display: none;
+        margin-left: 0;
+        margin-right: 0;
     }
 
 
