@@ -6,8 +6,7 @@
 # Screenshots: 
 
 
-## Thanks to my Mentor who've shown me how to paste screenshots in README file, which unfortunately I've forgotten already, but Sean C Davis' video (youtuber) has shown me an awesome hack in adding photos to README file by creating issues at GITHUB.
-
+## Thanks to my Mentor who've advised me on this project and the admin people with the extensions they've given me.
 ---
 
 ![The Page](https://user-images.githubusercontent.com/115887118/214885688-c8af4e29-d487-4be0-9a3f-30e35f3577d8.png)
@@ -235,6 +234,12 @@ In the future, I want to learn how to amend these mistakes and problems especial
 * google font
 
 * SSE for sorting out powercut at the crucial time
+
+* Also like to thank Sean C Davis' video (youtuber) who has shown me an awesome hack in adding photos to README file by creating issues at GITHUB.
+
+
+![Screenshot 2023-01-26 17 01 57](https://user-images.githubusercontent.com/115887118/214900587-4909d6e2-73a4-4d6e-9d95-f9a8ab62698f.png)
+
 
 
 
