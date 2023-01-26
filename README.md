@@ -7,14 +7,16 @@
 
 ## thanks to my Mentor who've shown me how to do this and to Sean C Davis (youtuber) who have shown me an awesome hack in adding photos to github.
 
-![image](https://user-images.githubusercontent.com/115887118/206911433-97649344-1e75-40d8-b33a-ebf44811e5be.png)
+![The Page](https://user-images.githubusercontent.com/115887118/214885688-c8af4e29-d487-4be0-9a3f-30e35f3577d8.png)
+
 
 ---
 
 # By Rempire18
 # Project Overview
 
-![Responsive Design](https://user-images.githubusercontent.com/115887118/206915297-f101213d-350c-485c-870a-884b99df0bfb.png)
+![Resposive Emulator](https://user-images.githubusercontent.com/115887118/214884621-e5bfa9b1-13ba-4970-b55e-5a368434aeb8.png)
+
 
 * I thought about this project as there were times that I don't have any income.
 * Because of my restrictions, I just find a way to hustle everyday for money.
