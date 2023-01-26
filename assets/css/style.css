@@ -6,29 +6,19 @@
     border: 0;
 }
 
+
 html {
     scroll-behavior: smooth;
+  
   }
-
 
 h1 {
     margin-bottom: 0;
 }
 
-header {
-    font-family: 'Oswald', sans-serif;
-    width: 100%;
-    padding-top: 15px;
-    height: auto;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: -85px;
-    height: 65px;
-    top: 0
-}
-
-header a {
+header a:hover {
     text-decoration: none;
+    border-bottom: none;
 
 }
 
@@ -40,7 +30,8 @@ header a {
     width: 300px;
     padding: 15px;
     font-size: 280%;
-    margin-left: 30px;
+    margin-top: 2px;
+    margin-left: 10px;
     border-radius: 15%;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
@@ -51,19 +42,12 @@ header a {
 
 }
 
-h1:hover {
-    color: #034606bd;
-    background-color: #e4ed34;
-
-}
-
-
 /* HEADER */
 
 #header-menu {
 
     align-content: center;
-    align-items: center;
+    float: right;
     background-color: #034606bd;
     display: flex;
     flex-wrap: wrap;
@@ -71,9 +55,13 @@ h1:hover {
     gap: 1rem;
     justify-content: center;
     list-style: none;
-    margin: 15px 10px 50px -10px;
-    padding: 5px 50px;
+    padding: 5px 10px;
+    margin-top: -40px;
 
+}
+
+#logo, #header-menu {
+    line-height: 20px;
 }
 
 #header-menu li {
@@ -103,7 +91,6 @@ h1:hover {
 #money-pic {
     height: 600px;
     width: 100%;
-    overflow: hidden;
 }
 
 #money-image {
@@ -115,6 +102,7 @@ h1:hover {
     justify-content: center;
     align-items: center;
     margin: 0;
+    
 
 }
 
@@ -161,7 +149,7 @@ h1:hover {
 
 }
 
-/* MONEYTRESS */
+/* MONEYTREES */
 
 #moneytrees {
     background-color: #e4ed34;
@@ -211,7 +199,8 @@ h1:hover {
 }
 
 
-/* Testimonials heading */
+/* Testimonials*/
+
 
 .card-group {
     margin: 20px;
@@ -221,8 +210,6 @@ h1:hover {
     width: 90%;
 
 }
-
-
 
 
 #testimonials-title {
@@ -312,8 +299,8 @@ p {
     height: 700px;
     font-family: Oswald;
     letter-spacing: 4px;
-    margin: 0;
-    overflow: hidden;
+    margin-top: 8px;
+    
 }
 
 .signup-form {
@@ -325,7 +312,7 @@ p {
     position: absolute;
     left: 10%;
     padding: 30px;
-    height: 400px;
+    max-height: 600px;
 }
 
 .signup-form h2 {
@@ -423,39 +410,36 @@ footer {
         width: 300px;
         padding: 15px;
         font-size: 280%;
-        margin-left: 0;
-        margin-right: 0;
-        border-radius: 50%;
+        margin-left: 30px;
+        border-radius: 15%;
         font-family: 'Oswald', sans-serif;
         text-transform: uppercase;
-        letter-spacing: 0px;
-        color: #ecfdee;
+        letter-spacing: 5px;
+        color: #e4ed34;
         text-align: center;
         background-color: #034606bd;
-
+    
     }
 
 
 }
 
 
-@media screen and (max-width: 987px) {
+@media screen and (max-width: 950px) {
 
-    #header-menu {
+    #header-menu { 
         clear: left;
         float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
+        margin-left: 10px; 
+        margin-top: 20px;
         line-height: 25px;
-        font-size: 90%;
-        font-weight: 400;
-        max-width: 90%;
-        max-height: fit-content;
-
+    
     }
 
-    #header-menu {
-        display: none;
+    #cover-text {
+        top: 350px;
+        left: 30px;
+        position: absolute;
     }
 
     .card-body {
@@ -475,6 +459,7 @@ footer {
 
     .form-section {
         min-height: calc(100vh - 29px);
+        margin-top: 5px;
     }
 
 
@@ -486,81 +471,29 @@ footer {
 }
 
 @media screen and (max-width: 769px) {
-    header {
-        flex-direction: column;
-        margin-bottom: -125px;
+
+    #cover-text {
+        top: 350px;
+        left: 30px;
+        position: absolute;
     }
 
-    #header-menu {
-        margin-top: 20px;
-        display: block;
-        justify-content: center;
-        align-items: center;
-        font-size: 16px;
-        font-weight: 100;
-        letter-spacing: 0;
-        background: none;
-    }
-
-    #header-menu a {
-        text-decoration: none;
-        color: #1a4702;
-    }
-
-    ul #header-menu {
-        width: 80%;
-        margin: 0 0 0 20%;
-    }
-
-    #logo {
-        color: #e4ed34;
-        justify-content: center;
-        margin-top: 0;
-    }
 
     .card-deck {
         max-width: 500%;
     }
 
-    .signup-form {
-        max-height: fit-content;
-        max-width: 300px;
-        position: relative;
-        margin-bottom: 300px;
-    }
 
+    .signup-form {
+        height: fit-content;
+
+    }
 
 
 }
 
 
 @media screen and (max-width: 650px) {
-
-    #logo {
-        color: #e4ed34;
-        justify-content: center;
-    }
-
-    #header-menu {
-        margin-top: 20px;
-        display: block;
-        justify-content: center;
-        align-items: center;
-        font-size: 16px;
-        font-weight: 100;
-        letter-spacing: 0;
-        background: none;
-    }
-
-    #header-menu a {
-        text-decoration: none;
-        color: #1a4702;
-    }
-
-    #cover-text {
-        margin-left: 0;
-        margin-right: 0;
-    }
 
 
     #moneytrees-title {
@@ -572,22 +505,6 @@ footer {
         letter-spacing: 0;
 
     }
-
-
-    .signup-form {
-        margin-top: 250px;
-        margin-bottom: 50px;
-        margin-left: 0;
-        margin-right: 0;
-        height: 55%;
-
-    }
-
-    .signup-form h2 {
-        display: none;
-    }
-
-
 
     footer {
         background-color: rgb(14, 64, 5);
@@ -607,4 +524,34 @@ footer {
         float: none;
         display: block;
     }
+}
+
+@media (max-width: 370px) {
+    .container {
+        text-align: center;
+    }
+
+    .container img {
+        margin: auto;
+        float: none;
+        display: block;
+    }
+
+    #logo {
+        height: fit-content;
+        width: fit-content;
+    
+    }
+   
+    #header-menu {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    #header-menu> li{
+        float: right;
+    }
+    
 }
