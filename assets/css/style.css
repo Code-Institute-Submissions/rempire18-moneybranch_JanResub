@@ -431,6 +431,7 @@ footer {
         clear: left;
         float: left;
         margin-left: 10px; 
+        margin-right: 10px;
         margin-top: 20px;
         line-height: 25px;
     
@@ -473,7 +474,7 @@ footer {
 @media screen and (max-width: 769px) {
 
     #cover-text {
-        top: 350px;
+        top: 480px;
         left: 30px;
         position: absolute;
     }
@@ -526,7 +527,7 @@ footer {
     }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 300px) {
     .container {
         text-align: center;
     }
