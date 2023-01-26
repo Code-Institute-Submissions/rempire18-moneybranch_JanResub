@@ -124,7 +124,7 @@ header a:hover {
     padding-left: 10px;
     border-radius: 15%;
     bottom: 60px;
-    top: 400px;
+    top: 350px;
     right: 50px;
     position: absolute;
 }
@@ -565,7 +565,7 @@ footer {
     @media (max-width: 300px) {
 
         #cover-text {
-            top: 350px;
+            top: 200px;
             left: 30px;
             position: absolute;
         }
