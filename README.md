@@ -5,7 +5,10 @@
 
 # Screenshots: 
 
-## thanks to my Mentor who've shown me how to do this and to Sean C Davis (youtuber) who have shown me an awesome hack in adding photos to github.
+
+## Thanks to my Mentor who've shown me how to paste screenshots in README file, which unfortunately I've forgotten already, but Sean C Davis' video (youtuber) has shown me an awesome hack in adding photos to README file by creating issues at GITHUB.
+
+---
 
 ![The Page](https://user-images.githubusercontent.com/115887118/214885688-c8af4e29-d487-4be0-9a3f-30e35f3577d8.png)
 
@@ -22,6 +25,7 @@
 * Because of my restrictions, I just find a way to hustle everyday for money.
 * So here comes the internet to the rescue. It pointed me to sites where I can earn a hotmeal after using a mouse or tapping a mobile screen.
 * As there are many websites out there that do this, some can be hard to deal with (meaning always screened out, takes too long to make a cash out), so I decided to make a list of those sites I personally tried and tested.
+* visit [Emulator](https://ui.dev/amiresponsive?url=https://rempire18.github.io/moneybranch/)
 * visit [MoneyTree](https://rempire18.github.io/moneybranch/)
 ---
 
@@ -81,6 +85,10 @@
 ## Colors
 
 I was thorn between the colors of money and leaf as the main theme, but because these colours are very similar, I used them both throughout the project. I also used all the primary colors plus the neutral white and near-black to show the diversity of what money can do in the world.
+
+I used http://www.css-color-extractor.com/ to extract the colors I used in the project except the native colors used by BOOTSTRAP. 
+
+![Screenshot 2023-01-26 16 53 43](https://user-images.githubusercontent.com/115887118/214898762-f38fdf9c-6b23-4be4-a48f-4d2aaf197f7d.png)
 
 ## Typography
 
@@ -155,15 +163,23 @@ Users signup to subscribe to the forthnightly newsletter.
 
 # Testing 
 
-I used the https://jigsaw.w3.org/css-validator/ service to test the html and css code with the following results.
+I used the https://validator.w3.org/ and https://jigsaw.w3.org/css-validator/ service to test the html and css code with the following results.
 
-html validator
+![HTML No error](https://user-images.githubusercontent.com/115887118/214888750-92103f15-c04a-47cb-9153-d19cc8fb87cf.png)
 
-![html](https://user-images.githubusercontent.com/115887118/208357101-c69a7526-8e23-44ac-bfec-b63aee69f8a0.png)
 
-css validator
+![CSS No error](https://user-images.githubusercontent.com/115887118/214888639-9e9c2be7-baca-4558-8ae3-2f92f3708b67.png)
 
-![css](https://user-images.githubusercontent.com/115887118/208357102-3dad02f6-f733-4d7a-9be7-c024134e16a8.png)
+
+I also used the device emulator at chrome devtools with the results below:
+
+![Screenshot 2023-01-26 15 17 24](https://user-images.githubusercontent.com/115887118/214889835-8b1c9edb-2615-49d3-b565-81193c115b42.png)
+![Screenshot 2023-01-26 14 53 43](https://user-images.githubusercontent.com/115887118/214889845-92291d21-5075-4270-80f0-5b0751aedb65.png)
+![Screenshot 2023-01-26 13 58 13](https://user-images.githubusercontent.com/115887118/214889849-f5ae6b49-bc78-49de-aaa0-26d80f3b22cf.png)
+![Screenshot 2023-01-26 13 57 55](https://user-images.githubusercontent.com/115887118/214889853-07871291-d761-4f9c-affc-f65c43d003f5.png)
+![Screenshot 2023-01-26 13 57 41](https://user-images.githubusercontent.com/115887118/214889857-e6817a84-24c7-4057-8cc3-b90f3adbfac7.png)
+![Screenshot 2023-01-26 13 57 22](https://user-images.githubusercontent.com/115887118/214889861-cee4de25-afd9-44df-ad1c-dc6a1bf70062.png)
+
 
 # Encountered Problems
 
@@ -189,9 +205,15 @@ That's the reason that there are less adds, commits and pushes here as I made th
 ![1](https://user-images.githubusercontent.com/115887118/208360950-1faa84e5-18f0-4a92-99d1-26b86a2adc1c.png)
 
 
+## Viewport Problem
+
+I find it challenging to adjust the elements of the website with regards to the viewport dimensions. It became a hit and miss and more of an experiment when I was adjusting how low or high an element should be. The chrome emulator goes ok but the UI is not agreeing. I do not know but I suspect sometimes latency of the server to render the freshly writeen codes. Sometimes I am just surprised that the website element is too far down or up when I am refreshing the emulators. 
+
+A strong and more capable connection is what one surely needs when working with websites.
+
 ## The Future
 
-In the future, I want to learn how to amend this mistake and this experience can serve as a precaution to newbie like me to be careful whilst in GITHUB.
+In the future, I want to learn how to amend these mistakes and problems especially my github experience. This github problem I encontered can serve as a precaution to newbie like me to be careful not to do anything in github. My advise is to do all the editing in GITPOD.
 
 
 # Acknowlegement
