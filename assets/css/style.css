@@ -516,6 +516,15 @@ footer {
 }
 
 @media (max-width: 500px) {
+
+    #header-menu {
+        display: inline-block;
+        margin-left: 90px;
+        margin-right: 10px;
+        padding-right: 5px;
+        
+    }
+
     .container {
         text-align: center;
     }
@@ -527,7 +536,12 @@ footer {
     }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 400px) {
+
+    #logo {
+        margin-right: 10px;
+    }
+
     .container {
         text-align: center;
     }
@@ -543,16 +557,22 @@ footer {
         width: fit-content;
     
     }
-   
-    #header-menu {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        
-    }
 
-    #header-menu> li{
-        float: right;
-    }
+    @media (max-width: 300px) {
+
+        h1{
+            font-size: small;
+        }
+    
+        .container {
+            text-align: center;
+        }
+    
+        .container img {
+            margin: auto;
+            float: none;
+            display: block;
+        
+        }
     
 }
