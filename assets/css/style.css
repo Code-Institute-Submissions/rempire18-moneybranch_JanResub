@@ -403,7 +403,7 @@ footer {
 
 /* MEDIA QUERRIES */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
 
 
     #logo {
@@ -426,7 +426,7 @@ footer {
 }
 
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 768px) {
 
     #cover-text {
         top: 350px;
@@ -539,6 +539,11 @@ footer {
 
 @media (max-width: 400px) {
 
+    #cover-text {
+        top: 300px;
+        left: 30px;
+    }
+
     #logo {
         margin-right: 10px;
     }
@@ -562,12 +567,11 @@ footer {
 }
 
 
-    @media (max-width: 300px) {
+    @media (max-width: 320px) {
 
         #cover-text {
-            margin-top: 150px;
+            top: 300px;
             left: 30px;
-            position: absolute;
         }
     
         .container {
