@@ -427,16 +427,6 @@ footer {
 
 @media screen and (max-width: 950px) {
 
-    #hea/der-menu { 
-        clear: left;
-        float: left;
-        margin-left: 10px; 
-        margin-right: 10px;
-        margin-top: 20px;
-        line-height: 25px;
-    
-    }
-
     #cover-text {
         top: 350px;
         left: 30px;
